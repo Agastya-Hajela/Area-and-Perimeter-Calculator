@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Rectangle</h1>
+        <h3>Find the Area and Perimeter</h3>
+    </div>
+    <div class="rectangle-container">
+        <div class="input-container">
+            <input id="length" placeholder="Enter length" type="number">
+            <p style="margin-right: 20px;" class="cm">cm</p>
+            <input id="breadth" placeholder="Enter breadth" type="number">
+            <p class="cm">cm</p>
+        </div>
+        <div class="rectangle-content">
+            <div>Area = length<span>&#215;</span>breadth =&nbsp;<p id="area-result-rectangle">0</p>cm<sup>2</sup></div>
+            <div>Perimeter = (length+breadth)<span>&#215;</span>2 =&nbsp;<p id="perimeter-result-rectangle">0</p>cm</div>
+        </div>
+        <div class="button-container">
+            <button class="rectangle-button" onclick="rectanglefunction()">Submit</button>
+            <a href="index.html"><button class="home-btn"><i class="fa fa-home"></i></button></a>
+        </div>
+    </div>
+</body>
+</html>

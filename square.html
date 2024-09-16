@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Square</h1>
+        <h3>Find the Area and Perimeter</h3>
+    </div>
+    <div class="square-container">
+        <div class="input-container">
+            <input id="square-input" placeholder="Enter Side" type="number">
+            <p class="cm">cm</p>
+        </div>
+        <div class="square-content">
+            <div>Area = Side<span>&#215;</span>Side =&nbsp;<p id="area-result-square">0</p>cm<sup>2</sup></div>
+            <div>Perimeter = 4<span>&#215;</span>Side =&nbsp;<p id="perimeter-result-square">0</p>cm</div>
+        </div>
+        <div class="button-container">
+            <button class="square-button" onclick="squarefunction()">Submit</button>
+            <a href="index.html"><button class="home-btn"><i class="fa fa-home"></i></button></a>
+        </div>
+    </div>
+</body>
+</html>

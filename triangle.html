@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Triangle</h1>
+        <h3>Find the Area and Perimeter</h3>
+    </div>
+    <div class="triangle-container">
+        <div class="input-container">
+            <input id="base" placeholder="Enter Base" type="number">
+            <p style="margin-right: 20px;" class="cm">cm</p>
+            <input id="height" placeholder="Enter Height" type="number">
+            <p class="cm">cm</p>
+        </div>
+        <div class="input-container">
+            <input id="a" placeholder="Enter Side-a" type="number">
+            <p style="margin-right: 20px;" class="cm">cm</p>
+            <input id="b" placeholder="Enter Side-b" type="number">
+            <p style="margin-right: 20px;" class="cm">cm</p>
+            <input id="c" placeholder="Enter Side-c" type="number">
+            <p class="cm">cm</p>
+        </div>
+        <div class="triangle-content">
+            <div>Area = &nbsp;<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><msub><mi>h</mi><mi>b</mi></msub><mi>b</mi></mrow><mn>2</mn></mfrac></math>&nbsp; =&nbsp;<p id="area-result-triangle">0</p>cm<sup>2</sup></div>
+            <div>Perimeter = a+b+c =&nbsp;<p id="perimeter-result-triangle">0</p>cm</div>
+        </div>
+        <div class="button-container">
+            <button class="triangle-button" onclick="trianglefunction()">Submit</button>
+            <a href="index.html"><button class="home-btn"><i class="fa fa-home"></i></button></a>
+        </div>
+    </div>
+</body>
+</html>
